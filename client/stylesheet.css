@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+html {
+    height: 100vh !important;
+}
+
+body {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(to right,#863A6F,#975C8D,#D989B5,#FFADBC);
+    font-family: 'Handlee', cursive;
+    color:white;
+
+}
+
+h1{
+    font-family: 'Handlee', cursive;
+    color:white;
+  
+}
+
+main {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    margin-bottom: 1 rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+table {
+    margin: 50px auto;
+    width: 100%;
+    margin-left:70px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid purple;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.container {
+    margin-top: 20px;
+
+}
+
+.btn-primary {
+    background-image: linear-gradient(135deg, #FFADBC, #DEBACE) !important;
+    border-radius: 6px !important;
+    box-sizing: border-box !important;
+    color: #ffffff !important;
+    display: block !important;
+    height: 50px !important;
+    font-size: 1.4em !important;
+    font-weight: 600 !important;
+    padding: 4px !important;
+    position: relative !important;
+    text-decoration: none !important;
+    width: 7em !important;
+    z-index: 2 !important;
+    margin: auto;
+}
+
+.row {
+    display: flex !important;
+    flex-direction: column !important;
+    width: auto !important;
+    min-width: 74vw !important;
+}
+
+.panel-primary>.panel-heading {
+    background-color: #000 !important;
+}
+
+.panel-primary {
+    border-color: #337ab7 !important;
+    max-width: 570px !important;
+    margin-left: 15px;
+}
+
+.viewpage1 {
+    display: flex;
+    flex-direction: column;
+    min-width: 30vw;
+}
+
+.viewpage2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 60vw;
+}
+
+.container1 {
+    width: 600px !important;
+    margin: auto;
+}
